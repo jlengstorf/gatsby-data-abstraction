@@ -1,0 +1,15 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby clean && GATSBY_GRAPHQL_IDE=playground gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.2.1",
+    "gatsby-theme-style": "*",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}

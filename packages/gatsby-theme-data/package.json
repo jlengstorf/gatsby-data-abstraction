@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-theme-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gatsby": "^2.2.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.2.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "dependencies": {
+    "gatsby-plugin-compile-es6-packages": "^1.0.6",
+    "gatsby-source-filesystem": "^2.0.27",
+    "gatsby-transformer-remark": "^2.3.5",
+    "remark": "^10.0.1",
+    "remark-html": "^9.0.0"
+  }
+}
