@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-theme-data",
-  "version": "1.0.0",
+  "name": "@jlengstorf/gatsby-theme-data",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-style",
+  "name": "@jlengstorf/gatsby-theme-style",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,7 +7,7 @@
     "develop": "gatsby clean && GATSBY_GRAPHQL_IDE=playground gatsby develop"
   },
   "dependencies": {
-    "gatsby-theme-data": "*"
+    "@jlengstorf/gatsby-theme-data": "*"
   },
   "peerDependencies": {
     "gatsby": "^2.2.1",
