@@ -19,15 +19,6 @@ module.exports = {
         path: 'content/posts'
       }
     },
-
-    // This is only here to create MarkdownRemark nodes that aren’t posts.
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'other',
-        path: 'content/not-a-post'
-      }
-    },
     'gatsby-transformer-remark'
   ]
 };

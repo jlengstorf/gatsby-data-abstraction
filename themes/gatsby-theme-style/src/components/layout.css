@@ -1,0 +1,66 @@
+html,
+body {
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+}
+
+.site-header {
+  background: rebeccapurple;
+  color: white;
+}
+
+.site-header nav {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1rem 0;
+}
+
+.site-header a {
+  color: inherit;
+  margin-right: 1rem;
+}
+
+.site-content {
+  margin: 3rem auto;
+  max-width: 600px;
+}
+
+.post-preview {
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+
+.post-preview + .post-preview {
+  border-top: 1px solid #666;
+  padding-top: 1rem;
+}
+
+.post-heading {
+  margin: 0;
+}
+
+.post-byline,
+.read-more {
+  margin: 0.5rem 0 0;
+}
+
+.post-byline {
+  font-size: 0.875rem;
+}
+
+.post-content {
+  margin-top: 2rem;
+}

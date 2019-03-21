@@ -7,8 +7,6 @@
     "develop": "gatsby clean && GATSBY_GRAPHQL_IDE=playground gatsby develop"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.9",
-    "@emotion/styled": "^10.0.9",
     "gatsby-theme-data": "*"
   },
   "peerDependencies": {

@@ -62,8 +62,6 @@ exports.sourceNodes = ({ actions: { createTypes }, schema, reporter }) => {
               type: 'MarkdownRemark'
             });
 
-            console.log(posts);
-
             return posts.map(mdToPost);
           }
         }

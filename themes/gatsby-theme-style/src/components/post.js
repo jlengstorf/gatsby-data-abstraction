@@ -1,22 +1,9 @@
-/** @jsx jsx */
 import React from 'react';
-import { css, jsx } from '@emotion/core';
 
 const Post = ({ title, content, author, date }) => (
   <React.Fragment>
-    <h1
-      css={css`
-        margin: 0;
-      `}
-    >
-      {title}
-    </h1>
-    <p
-      css={css`
-        font-size: 0.875rem;
-        margin-top: 0.5rem;
-      `}
-    >
+    <h1 className="post-heading">{title}</h1>
+    <p className="post-byline">
       Posted on{' '}
       <time dateTime={new Date(date).toISOString()}>
         {new Date(date).toLocaleDateString('en-US', {
@@ -28,9 +15,7 @@ const Post = ({ title, content, author, date }) => (
       by {author.name}
     </p>
     <div
-      css={css`
-        margin-top: 2rem;
-      `}
+      className="post-content"
       dangerouslySetInnerHTML={{ __html: content }}
     />
   </React.Fragment>
